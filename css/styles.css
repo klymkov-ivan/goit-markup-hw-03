@@ -212,7 +212,7 @@ button {
 
 .team-section {
   background-color: #f4f4fd;
-  padding-bottom: 120px;
+  padding: 120px 0;
 }
 
 .section-header {
@@ -224,8 +224,7 @@ button {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
-  padding-top: 120px;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 .team-list {
@@ -264,7 +263,7 @@ button {
 }
 
 .portfolio-section {
-  padding-bottom: 120px;
+  padding: 120px 0;
 }
 
 .portfolio-list {
