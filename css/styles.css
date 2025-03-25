@@ -256,10 +256,7 @@ button {
 
 .team-member {
   background-color: #ffffff;
-}
-
-.member-image {
-  margin-bottom: 32px;
+  border-radius: 0px 0px 4px 4px;
 }
 
 .portfolio-section {
@@ -291,7 +288,7 @@ button {
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   background: #fff;
   border-radius: 0 0 4px 4px;
-  padding-bottom: 32px;
+  padding: 32px 0;
 }
 
 .portfolio-container {
