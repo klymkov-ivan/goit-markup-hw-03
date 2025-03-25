@@ -4,12 +4,29 @@ body {
   background-color: #fff;
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
 a {
   text-decoration: none;
 }
 
 ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
 }
 
 button {
@@ -27,10 +44,27 @@ button {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  margin-right: 76px;
 }
 
 .accent {
   color: #2e2f42;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-navigation {
+  display: flex;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 40px;
 }
 
 .nav-menu .nav-menu-item {
@@ -41,6 +75,9 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  display: inline-block;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .nav-menu .nav-menu-item:hover {
@@ -54,6 +91,13 @@ button {
 
 .contact-info {
   font-style: normal;
+}
+
+.contacts-list {
+  display: flex;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  gap: 40px;
 }
 
 .contacts-list .contact {
@@ -74,6 +118,7 @@ button {
 .hero-section {
   background-color: #2e2f42;
 }
+
 .hero-phrase {
   font-weight: 700;
   font-size: 56px;
@@ -83,6 +128,14 @@ button {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  width: 496px;
+  padding-top: 188px;
+  padding-bottom: 48px;
+  margin: 0 auto;
+}
+
+.hero-container {
+  padding-bottom: 188px;
 }
 
 .order-btn {
@@ -94,6 +147,10 @@ button {
   letter-spacing: 0.04em;
   color: #fff;
   background-color: #4d5ae5;
+  padding: 16px 32px;
+  border-radius: 4px;
+  display: block;
+  margin: 0 auto;
 }
 
 .order-btn:hover,
@@ -102,11 +159,19 @@ button {
 }
 
 .advantages-section {
-  background-color: #f4f4fd;
+  background-color: #ffffff;
+}
+
+.advantages-list {
+  display: flex;
+  gap: 24px;
+  margin-top: 120px;
+  margin-bottom: 120px;
 }
 
 .advantage-list-item {
   background-color: #ffffff;
+  flex-basis: calc((100% - 72px) / 4);
 }
 
 .advantage-name {
@@ -117,6 +182,7 @@ button {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .text {
@@ -129,6 +195,7 @@ button {
 
 .team-section {
   background-color: #f4f4fd;
+  padding-bottom: 120px;
 }
 
 .section-header {
@@ -140,6 +207,13 @@ button {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
+  padding-top: 120px;
+  padding-bottom: 72px;
+}
+
+.team-list {
+  display: flex;
+  gap: 24px;
 }
 
 .team-member .member-name {
@@ -151,7 +225,9 @@ button {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
+
 .team-member .member-position {
   font-size: 16px;
 
@@ -159,9 +235,29 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
+  margin-bottom: 32px;
 }
+
 .team-member {
   background-color: #ffffff;
+}
+
+.member-image {
+  margin-bottom: 32px;
+}
+
+.portfolio-section {
+  padding-bottom: 120px;
+}
+
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px 24px;
+}
+
+.portfolio-item {
+  flex-shrink: 0;
 }
 
 .portfolio-item .project-name {
@@ -174,8 +270,24 @@ button {
   color: #2e2f42;
 }
 
+.member-container {
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  background: #fff;
+  border-radius: 0 0 4px 4px;
+  padding-bottom: 32px;
+}
+
+.portfolio-container {
+  border-bottom: 1px solid #e7e9fc;
+  border-left: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
+  padding: 32px 16px;
+}
+
 .footer {
   background-color: #2e2f42;
+  padding-bottom: 100px;
 }
 
 .logo-footer {
@@ -188,6 +300,13 @@ button {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  display: inline-block;
+  margin-top: 101.5px;
+  margin-bottom: 16px;
+}
+
+.footer-container {
+  width: 264px;
 }
 
 .accent-footer {
@@ -202,4 +321,11 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+}
+
+.container {
+  max-width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
 }
