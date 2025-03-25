@@ -122,6 +122,7 @@ button {
 
 .hero-section {
   background-color: #2e2f42;
+  padding-bottom: 188px;
 }
 
 .hero-phrase {
@@ -137,10 +138,6 @@ button {
   padding-top: 188px;
   padding-bottom: 48px;
   margin: 0 auto;
-}
-
-.hero-container {
-  padding-bottom: 188px;
 }
 
 .order-btn {
