@@ -152,6 +152,9 @@ button {
   border-radius: 4px;
   display: block;
   margin: 0 auto;
+  min-width: 169px;
+  height: 56px;
+  border: none;
 }
 
 .order-btn:hover,
