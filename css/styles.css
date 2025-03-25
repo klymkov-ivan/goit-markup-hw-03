@@ -64,12 +64,12 @@ button {
 
 .header-navigation {
   display: flex;
+  align-items: center;
 }
 
 .nav-menu {
   display: flex;
   gap: 40px;
-  align-items: center;
 }
 
 .nav-menu .nav-menu-item {
