@@ -164,13 +164,12 @@ button {
 
 .advantages-section {
   background-color: #ffffff;
+  padding: 120px 0;
 }
 
 .advantages-list {
   display: flex;
   gap: 24px;
-  margin-top: 120px;
-  margin-bottom: 120px;
 }
 
 .advantage-list-item {
@@ -178,15 +177,18 @@ button {
   flex-basis: calc((100% - 72px) / 4);
 }
 
-.advantage-name {
-  font-weight: 500;
-  font-size: 20px;
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
 
-  /* line-height: 24px; */
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-  margin-bottom: 8px;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .text {
