@@ -266,7 +266,8 @@ button {
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 40px 24px;
+  gap: 24px;
+  row-gap: 48px;
 }
 
 .portfolio-item {
@@ -281,6 +282,7 @@ button {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .member-container {
